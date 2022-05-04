@@ -35,6 +35,7 @@ p {
   margin: 0 auto;
   text-decoration: none;
   text-align: center !important;
+  text-transform: uppercase;
 }
 
 .card {
