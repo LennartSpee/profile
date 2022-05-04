@@ -50,7 +50,6 @@ p {
 .card-transparent {
   width: 50%;
   margin: 0 auto;
-  width: 80%;
   background-color: #030A08;
 }
 
@@ -64,6 +63,8 @@ p {
   width: 30%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .social-list {
