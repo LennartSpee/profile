@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Noto+Sans+JP:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 4em;
+  font-family: 'Noto Sans JP';
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+h2 {
+  color: azure;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: azure;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.btn-white {
+  width: 20%;
+  margin: 40px;
+  padding: 20px 40px 20px 40px;
+  background-color: white;
+  color: #17171d;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.card {
+  width: 50%;        /* Set the width */
+  padding: 20px;
+  margin: 40 auto;
+  background-color: #101016;
+  box-shadow: rgba(0, 3, 63, 0.3);
+  min-height: 300px;
+}
+
+.card-transparent {
+  width: 50%;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #030A08;
+}
+
+.card-transparent img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.card-bottom {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.social-list li {
+  display: inline-block;
+}
+.social-icon {
+  color: azure !important;
+  font-size: 30px;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
