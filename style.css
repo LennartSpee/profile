@@ -34,7 +34,7 @@ p {
   color: #17171d;
   margin: 0 auto;
   text-decoration: none;
-  text-align: center;
+  text-align: center !important;
 }
 
 .card {
